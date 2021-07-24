@@ -9,8 +9,8 @@ import {
   SupervisorAccount,
 } from "@material-ui/icons";
 import HomeIcon from "@material-ui/icons/Home";
-import { useDispatch, useSelector } from "react-redux";
-import { logout, selectUser } from "./features/userSlice";
+import { useDispatch } from "react-redux";
+import { logout} from "./features/userSlice";
 import { auth } from "./firebase";
 function Header() {
   const dispatch = useDispatch();
