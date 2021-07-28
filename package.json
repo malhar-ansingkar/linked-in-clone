@@ -1,5 +1,6 @@
 {
   "name": "linked-in-clone",
+      "homepage": "https://malhar-ansingkar.github.io/linked-in-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
