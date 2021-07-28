@@ -34,6 +34,7 @@ function Feed() {
             timestamp: firebase.firestore.FieldValue.serverTimestamp()
 
         });
+        db.collection('posts').orderBy('timestamp').startAfter(today)
 
         setInput("");
     }
