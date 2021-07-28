@@ -26,7 +26,6 @@ function Feed() {
         e.preventDefault();
 
         db.collection("posts").add({
-          key:doc.id,
             name:user.displayName,
             description:user.email,
             messege:input,
